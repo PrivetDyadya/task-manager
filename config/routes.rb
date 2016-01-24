@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'api_projects/index'
+
+  get 'api_projects/show'
+
+  get 'api_projects/create'
+
+  get 'api_projects/update'
+
+  get 'api_projects/delete'
+
   get 'api_users/index'
 
   get 'api_users/show'
