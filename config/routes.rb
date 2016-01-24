@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'api_users/index'
+
+  get 'api_users/show'
+
+  get 'api_users/create'
+
+  get 'api_users/update'
+
+  get 'api_users/delete'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
