@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  [name[: 
+  project_id[: 
+  deadline_at[: 
+  priopity[: 
+
+two:
+  [name[: 
+  project_id[: 
+  deadline_at[: 
+  priopity[: 
