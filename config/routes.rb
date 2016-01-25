@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'api_tasks/[index'
+  get 'api_tasks/index'
 
   get 'api_tasks/show'
 
@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'api_tasks/update'
 
-  get 'api_tasks/delete]'
+  get 'api_tasks/delete'
 
   get 'api_projects/index'
 
@@ -33,7 +33,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

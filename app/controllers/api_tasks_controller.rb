@@ -1,5 +1,5 @@
 class ApiTasksController < ApplicationController
-  def [index
+  def index
   end
 
   def show
@@ -11,6 +11,6 @@ class ApiTasksController < ApplicationController
   def update
   end
 
-  def delete]
+  def delete
   end
 end
