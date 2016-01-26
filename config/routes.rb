@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  use_doorkeeper
+  get 'ember_app/name'
+
   get 'api_tasks/index'
 
   get 'api_tasks/show'
